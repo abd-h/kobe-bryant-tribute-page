@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Sansita+Swashed:wght@300&display=swap');
+
+:root {
+	width: 85%;
+	/*background-color: #f7f7f7;*/
+	margin: auto;
+	background: #fff;
+}
+title {
+	text-transform: capitalize;
+}
+
+.ahj {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 25px;
+	/*background-color: #ebebeb;*/
+	text-align: center;
+	position: relative;
+	top: 5px;
+	font-size: 25px;
+	align-items: flex-start;
+	left: 45px;
+}
+.a {
+	width: 40px;
+	height: 25px;
+	background-color: #21665d;
+	color: #fff;
+	border-style: none;
+	border-width: 5px;
+	
+	
+
+}
+.h {
+	width: 40px;
+	height: 25px;
+	background-color: #f80714;
+	color: #fff;
+	border-style: none;
+	border-width: 5px;
+}
+
+.j {
+	width: 40px;
+	height: 25px;
+	background-color: #82fb04;
+	color: #fff;
+	border-style: none;
+	border-width: 5px;
+	margin-left: -1px;
+}
+/*companylogo container*/
+#logo {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 110px;
+	justify-content: center;
+	align-content: center;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 5px;
+	/*border-color: #f7f7f7;*/
+	border-color: #fff;
+
+
+
+}
+/*autom leaf image*/
+.images2 {
+	position: relative;
+	width: 150px;
+	height: 45px;
+	border-radius: 28px;
+	align-self: center;
+	
+	top: 12px;
+	
+
+}
+#mages2 {
+	max-width: 100%;
+	height: auto;
+
+}
+
+h1 {
+	position: relative;
+	align-self: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	
+	color: #170000;
+	
+	line-height: 20px;
+	letter-spacing: 5px;
+}
+
+
+.p1 {
+	color: #000;
+	font-size: 18px;
+	opacity: 0.5;
+	font-family: 'Sansita Swashed', cursive;
+	letter-spacing: 2px; 
+}
+
+.p2{
+	color: #000;
+	font-size: 16px;
+	opacity: .5;
+	letter-spacing: 1px;
+
+}
+
+#strong {
+	
+	color: red;
+	letter-spacing: 1px; 
+	font-size: 16px;
+}
+
+.images {
+	width: 310px;
+	height: 40px;
+	position: relative;
+	flex-shrink: 1;
+	top: -20px;
+	right: 20px;
+}
+.images {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+/*Headlined 1 begins hear*/
+#main-title {
+	width: 100%;
+	margin: auto;
+	height: 200px;
+	background: #000;
+	/*background: #101010;
+	background: #0f0f0f;*/
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 20px;
+
+	}
+
+.h2-img {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+h2 {
+	position: relative;
+	letter-spacing: 8px;
+	text-align: center;
+	left: 250px;
+	color: #ffffff;
+	font-size: 40px;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	flex-shrink: 3;
+	align-self: center;
+}
+
+.div-h3 {
+	width: 100%;
+	height: 140px;
+	background-color: #fff;
+	padding: 10px 3px 10px 10px; 
+}
+
+h3 {
+	width: 100%;
+	letter-spacing: 2px;
+	font-size: 24px;
+	height: 30px;
+	background-color: #fff;
+}
+
+.main-div {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 300px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#kbryant3 {
+	position: relative;
+	width: 500px;
+	height: 280px;
+	top: 10px;
+	right: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 18px;
+
+
+}
+
+.main-div-img {
+	max-width:100%;
+	height: auto;
+
+}
+.main-div-p1 {
+	position: relative;
+	width: 600px;
+	font-size: 18px;
+	top: 10px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	/*margin: auto;*/
+	margin-left: 5px;
+	padding-right: 20px;
+
+}
+
+.kbryant4 {
+	width: 600px;
+	height: 300px;
+}
+
+.main-div-img1 {
+	max-width:100%;
+	height: auto;
+
+}
+
+
+main {
+	width: 68vw;
+	margin: auto;
+	background-color: #fff;
+}
+
+.div-para2 {
+	position: relative;
+	width: 95%;
+	height: 350px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	left: 10px;
+
+	
+
+}
+.div-p2 p {
+	width: 100%;
+	height: 100%;
+	text-align: left;	
+}
+
+.yellow-jersy24 {
+	display: block;
+	width: 800px;
+	height: 450px;
+	margin: auto;
+	border-width: 2px;
+	border-color: transparent;
+	border-radius: 20px;
+
+}
+.yellow-jersy24 {
+	max-width: 100%;
+	height: auto;
+}
+
+.last-para {
+	position: relative;
+	width: 95%;
+	height: 130px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	left: 30px;
+	
+	
+}
+
+.stats {
+	/*display: block;*/
+	width: 700px;
+	height: 450px;
+	/*margin: auto;*/
+	border-width: 2px;
+	border-color: transparent;
+	border-radius: 20px;
+}
+
+.stats {
+	max-width: 100%;
+	height: auto;
+}
+
+#stats { 
+	position: relative;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	
+}
+#h2-stats {
+	font-size: 18px;
+	color: #000;
+	left: 0px;
+	text-transform: capitalize;
+}
+
+#div-ul1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+
+}
+#div-ul1 li {
+	
+	line-height: 25px;
+	list-style: square;
+	list-style: inside;
+	letter-spacing: 2px;
+	font-size: 15px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #eee;
+	border-radius: 10px;
+	padding: 3px;
+	margin-right: 20px;
+}
+#div-ul1-l1 {
+	position: relative;
+	left: 10px;
+}
+#div-ul1-l2 {
+	position: relative;
+	right: 10px;
+}
+#div-ul1-l3 {
+	position: relative;
+	right: 40px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	color: #000;
+	font-size: 18px;
+	font-weight: 800;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	padding-top: 40px;
+	text-align: center;
+}
