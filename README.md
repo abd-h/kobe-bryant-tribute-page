@@ -1,7 +1,7 @@
 # Tribute Page of Kobe Bryant
 
-This Tribute is complete. 
-However, I want to reduce the improve the following:
+This Tribute is a draft. 
+However, I want to improve the following:
 
 - Proper use of html semantics 
 - Reduce and refine the amount of CSS used.
