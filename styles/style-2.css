@@ -100,7 +100,7 @@ img {
 .top-right p:nth-child(2),
 .top-right p:nth-child(3) {
     border: 2px solid black;
-    padding: 10px 20px;
+    padding: 10px 8px;
     border-radius: 10px;
 }
 
