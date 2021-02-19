@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* h1 font-family */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script:wght@400&display=swap');
+
+/* General */
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    background-color: #fff;
+    --first-color: rgb(255, 243, 243);
+    --borders: rgba(87, 87, 87, 0.39);
+    
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 80%vw;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Newsreader', serif;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* images */
+
+.images2 {
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    
+}
+
+.menu-icon div {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0px;
+    
+
+}
+/* flex */
+
+.main-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-top: 1px solid var(--borders);
+    border-bottom: 1px solid var(--borders);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top-right {
+
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.top-right p:nth-child(2),
+.top-right p:nth-child(3) {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.top-right p:nth-child(2) {
+    border-color: rgb(253, 0, 0);
+}
+
+.p1 a {
+    color: rgb(253, 0, 0);
+}
+
+.p2 a {
+    color: rgb(31, 195, 195);
+}
+
+.top-right p:nth-child(3) {
+    border-color: rgb(31, 195, 195);
+}
+
+.top-right p:nth-child(4) {
+    border-right: 1px solid var(--borders);
+    border-left: 2px solid var(--borders);
+    padding: 24px 20px;
+    text-transform: uppercase;
+}
+
+.menu-icon {
+    padding: 24px 20px;
+}
+
+.top-right p:first-child {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 1.6rem;
+    color: #000;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.top-right p:nth-child(4):hover,
+.menu-icon:hover {
+    border-bottom: 1px solid red;
+}
+
+/* nav */
+
+li {
+    list-style: none;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+    padding: 10px 15px;
+    
+}
+
+
+.nav {
+    width: 100%;
+    height: 40px;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--borders);
+    padding: 1rem .5rem;
+}
+
+li a:hover {
+    border-bottom: 2px solid red;   
+}
+
+
+

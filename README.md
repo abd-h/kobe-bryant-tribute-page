@@ -1,8 +1,4 @@
-# Tribute Page of Kobe Bryant
+# I've created Alperton Sports logo and positioned it at the top left.
 
-This Tribute is a draft. 
-However, I want to improve the following:
-
-- Proper use of html semantics 
-- Reduce and refine the amount of CSS used.
-- Improve alignment of the entire page
+- Alperton Sports is victicious sports news site.
+- Alperton Sports focuses on tribute of Kobe Bryant.
