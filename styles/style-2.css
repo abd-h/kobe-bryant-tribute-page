@@ -17,7 +17,8 @@ html {
     font-size: 10px;
     background-color: #fff;
     --first-color: rgb(255, 243, 243);
-    --borders: rgba(87, 87, 87, 0.39);
+    --borders: rgb(161, 161, 161);
+    --linear-color: linear-gradient(125deg,   rgb(128, 128, 128), rgb(0, 0, 0) 60%, rgb(0,0,0) );
     
 }
 *,
@@ -32,7 +33,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h1,
+h2{
     font-size: 3em;
     font-family: 'Newsreader', serif;
     margin-left: 10px;
@@ -46,6 +48,9 @@ h1 {
     width: 70px;
     height: 65px;
     border-radius: 50%;
+}
+
+header .images2 {
     margin-left: 20px;
 }
 
@@ -158,9 +163,7 @@ a {
     font-size: 1.5rem;
     color: black;
     padding: 10px 15px;
-    
 }
-
 
 .nav {
     width: 100%;
@@ -172,13 +175,59 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px solid var(--borders);
+    border-bottom: 1.5px solid var(--borders);
     padding: 1rem .5rem;
 }
 
 li a:hover {
     border-bottom: 2px solid red;   
 }
+
+/* section with first ad area */
+.first-ad {
+    position: relative;
+    width: 80vw;
+    height: 280px;
+    background-image: url(../images/kbyellow-jersy8.png), var(--linear-color);
+    background-repeat: no-repeat;
+    background-size: 40% 100%, 60%;
+    background-position: right, left;
+    margin: auto;
+    margin-top: 1.5px;
+    color: rgb(255, 243, 243);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+h2,
+.first-ad .top-left + p {
+    font-size: 2.5rem;
+    font-family: "Newsreader", sarif;
+    letter-spacing: 2px;
+}
+
+.first-ad .top-left + p {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.8;
+}
+
+.first-ad p span {
+    position: absolute;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    border: 1px solid red;
+    padding: 15px 20px;
+    border-radius: 5px;
+    bottom: 40px;
+}
+
+
 
 
 
