@@ -8,6 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script:wght@400&display=swap');
 
+/* h3 */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Cutive&family=Petit+Formal+Script&display=swap');
+
 /* General */
 
 html {
@@ -17,8 +20,8 @@ html {
     font-size: 10px;
     background-color: #fff;
     --first-color: rgb(255, 243, 243);
-    --borders: rgb(161, 161, 161);
-    --linear-color: linear-gradient(0deg,   rgb(42, 42, 42), rgb(0, 0, 0) 60%, rgb(0,0,0),  rgba(23, 66, 80, 0.678));
+    --borders: rgb(184, 184, 184);
+    --linear-color: linear-gradient(205deg,   rgb(42, 42, 42), rgb(54, 54, 54),  rgba(19, 56, 68, 0.678), black);
     
 }
 *,
@@ -33,13 +36,37 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Text  */
 h1,
-h2{
+h2 {
     font-size: 3em;
     font-family: 'Newsreader', serif;
     margin-left: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.div-h3 h3 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.div-h3 .p1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Courgette', cursive;
+    opacity: 0.5;
+}
+
+.p2 span {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.p2 strong {
+    opacity: 0.85;
+    color: red;
 }
 
 /* images */
@@ -189,11 +216,13 @@ li a:hover {
     position: relative;
     width: 80vw;
     height: 280px;
+    margin: auto;
     background-image: url(../images/Tottenham-Hotspur-Spurs-2.jpg), var(--linear-color);
     background-repeat: no-repeat;
-    background-size: 40% 100%, 60%;
+    background-size: 50% 100%, 100% 100%;
     background-position: right, left;
-    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     margin-top: 1.5px;
     color: rgb(255, 243, 243);
     display: flex;
@@ -226,6 +255,16 @@ h2,
     padding: 15px 20px;
     border-radius: 5px;
     bottom: 40px;
+}
+
+/* first breaking new headline */
+
+.div-h3 {
+    width: 80vw;
+    height: 280px;
+    margin: auto;
+    margin-top: 100px;
+    
 }
 
 
