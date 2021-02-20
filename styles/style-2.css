@@ -18,7 +18,7 @@ html {
     background-color: #fff;
     --first-color: rgb(255, 243, 243);
     --borders: rgb(161, 161, 161);
-    --linear-color: linear-gradient(125deg,   rgb(128, 128, 128), rgb(0, 0, 0) 60%, rgb(0,0,0) );
+    --linear-color: linear-gradient(0deg,   rgb(42, 42, 42), rgb(0, 0, 0) 60%, rgb(0,0,0),  rgba(23, 66, 80, 0.678));
     
 }
 *,
@@ -52,6 +52,7 @@ h2{
 
 header .images2 {
     margin-left: 20px;
+    
 }
 
 img {
@@ -188,7 +189,7 @@ li a:hover {
     position: relative;
     width: 80vw;
     height: 280px;
-    background-image: url(../images/kbyellow-jersy8.png), var(--linear-color);
+    background-image: url(../images/Tottenham-Hotspur-Spurs-2.jpg), var(--linear-color);
     background-repeat: no-repeat;
     background-size: 40% 100%, 60%;
     background-position: right, left;
