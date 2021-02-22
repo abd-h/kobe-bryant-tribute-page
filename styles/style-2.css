@@ -22,6 +22,9 @@ html {
     --first-color: rgb(255, 243, 243);
     --borders: rgb(184, 184, 184);
     --linear-color: linear-gradient(205deg,   rgb(42, 42, 42), rgb(54, 54, 54),  rgba(19, 56, 68, 0.678), black);
+    --p1-hover: rgb(155, 46, 46);
+    --p2-hover: rgb(120, 179, 174);
+    
     
 }
 *,
@@ -69,9 +72,9 @@ h2 {
     color: red;
 }
 
-.main-div-p1 {
-    width: 50%;
-    margin: auto;
+.main-div p {
+    /* width: 50%; */
+    /* margin: auto; */
     font-size: 2rem;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -97,6 +100,7 @@ img {
     display: block;
 }
 
+/* three bar menu icon */
 .menu-icon div {
     width: 20px;
     height: 2px;
@@ -105,14 +109,39 @@ img {
 }
 
 .kbryant3 {
-    width: 300px;
-    height: 100px;
+    width: 800px;
+    height: 150px;
     border-radius: 10px;
 }
 .kbryant3 {
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
+
+/* On :hover */
+li a:hover {
+    border-bottom: 2px solid red;   
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+ 
+.header .p1:hover,
+.header .p1 a:hover {
+    border-color: var(--p1-hover);
+    color: var(--p1-hover);
+}
+
+
+.header .p2:hover,
+.header .p2 a:hover {
+    border-color: var(--p2-hover);
+    color: var(--p2-hover);
+}
+
 /* flex */
 
 .main-header {
@@ -195,9 +224,12 @@ img {
 .main-div {
     width: 80vw;
     display: flex;
+    flex-direction: column;
     font-weight: 350;
-    margin-top: -55px;
-    justify-content: space-between;
+    /* margin-top: -55px; */
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
 }
 
 /* nav */
@@ -228,10 +260,6 @@ a {
     align-items: center;
     border-bottom: 1.5px solid var(--borders);
     padding: 1rem .5rem;
-}
-
-li a:hover {
-    border-bottom: 2px solid red;   
 }
 
 /* section with first ad area */
@@ -300,9 +328,6 @@ h2,
 	line-height: 30px;
     margin: auto;
     margin-top: 40px;
-
-	
-
 }
 .div-p2 p {
 	width: 100%;
@@ -318,8 +343,8 @@ h2,
 	border-width: 2px;
 	border-color: transparent;
 	border-radius: 20px;
-
 }
+
 .yellow-jersy24 {
 	max-width: 100%;
 	height: auto;
@@ -371,11 +396,8 @@ h2,
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	
-
 }
-#div-ul1 li {
-	
+#div-ul1 li {	
 	line-height: 25px;
 	list-style: square;
 	list-style: inside;

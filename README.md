@@ -6,3 +6,7 @@
 ## Potential Advertising Space added
 
 - first headline added
+
+### Hover effect on rightside of header
+
+- First image has been resized
