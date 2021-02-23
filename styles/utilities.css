@@ -1,0 +1,119 @@
+
+/* flex */
+
+.main-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-top: 1px solid var(--borders);
+    border-bottom: 1px solid var(--borders);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top-right {
+
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.top-right p:nth-child(2),
+.top-right p:nth-child(3) {
+    border: 2px solid black;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+.top-right p:nth-child(2) {
+    border-color: var(--p1-color)
+}
+
+.p1 a {
+    color: var(--p1-color)
+}
+
+.p2 a {
+    color: var(--p2-color);
+}
+
+.top-right p:nth-child(3) {
+    border-color: var(--p2-color);
+}
+
+.top-right p:nth-child(4) {
+    border-right: 1px solid var(--borders);
+    border-left: 2px solid var(--borders);
+    padding: 24px 20px;
+    text-transform: uppercase;
+}
+
+.menu-icon {
+    padding: 24px 20px;
+}
+
+.top-right p:first-child {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 1.6rem;
+    color: #000;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.top-right p:nth-child(4):hover,
+.menu-icon:hover {
+    border-bottom: 1px solid red;
+}
+
+.main-div {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    font-weight: 350;
+    /* margin-top: -55px; */
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.reporters {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80vw;
+    height: 180px;
+    margin: 70px auto;
+    background-color: var(--light-grey);
+    border-top: 2px solid var(--borders);
+    border-bottom: 2px solid var(--borders);
+    align-items: center;
+    justify-items: end;
+    
+}
+.flex1 {
+    display: flex;
+}

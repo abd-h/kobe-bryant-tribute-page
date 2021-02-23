@@ -10,3 +10,4 @@
 ### Hover effect on rightside of header
 
 - First image has been resized
+- footer-updated with social media icons
