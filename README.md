@@ -11,3 +11,7 @@
 
 - First image has been resized
 - footer-updated with social media icons
+
+#### Reporters grid was created
+
+- Utilities CSS page has been created
