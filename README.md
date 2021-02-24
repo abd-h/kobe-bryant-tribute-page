@@ -18,4 +18,8 @@
 
 #### Headers
 
-- I used header-fixed class to fix headers navbar into position.
+- I used header-fixed class to fix headers navbar into position
+
+### footer
+
+- navbar added

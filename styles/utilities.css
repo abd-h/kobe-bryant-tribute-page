@@ -89,14 +89,10 @@
     margin: auto;
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .social-media-icons {
+    position: relative;
     display: flex;
 }
 
@@ -139,3 +135,34 @@
 .flex1 {
     display: flex;
 }
+
+/* Footer  */
+
+.flex2 {
+    background-color: #eee;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* .footer span a {
+    text-align: left;
+    line-height: 1.6;
+    
+} */
+
+/* .flex2 p span {
+    position: absolute;
+    top: 40px;
+} */
+
+
+
+
