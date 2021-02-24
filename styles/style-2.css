@@ -26,7 +26,7 @@ html {
     --p2-hover: rgb(96, 143, 139);
     --light-grey: rgb(251, 249, 249);
     --p1-color: rgb(253, 0, 0);
-    --p2-color: rgb(78, 255, 255);
+    --p2-color: rgb(72, 216, 216);
 }
 *,
 *:before,
@@ -90,13 +90,15 @@ h2 {
     font-weight: normal;
     font-size: 1.6rem;
     padding-left: 10px;
-}
-.flex1 span {
-    margin-top: -15px;
+    letter-spacing: 1px;
 }
 
-.flex1 span:first-child {
-    color: var(-);
+.flex1 span{
+    color: var(--p1-color);
+}
+
+.flex1 .jason {
+    color: var(--p2-color);
 }
 
 /* .flex1 p a {
@@ -130,7 +132,7 @@ img {
 
 .reporters img {
     width: 180px;
-    height: 175px;
+    height: 176px;
     display: block;
 }
 
@@ -201,7 +203,11 @@ li a:hover {
 }
 
 .header-fixed {
-    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--light-grey);
+    z-index: 1;
 }
 
 /* nav */
@@ -223,6 +229,7 @@ a {
 .nav {
     width: 100%;
     height: 40px;
+    z-index: 1;
 }
 
 .nav-ul {
@@ -235,26 +242,7 @@ a {
 }
 
 /* section with first ad area */
-.first-ad {
-    position: relative;
-    width: 80vw;
-    height: 280px;
-    margin: auto;
-    background-image: url(../images/Tottenham-Hotspur-Spurs-2.jpg), var(--linear-color);
-    background-repeat: no-repeat;
-    background-size: 50% 100%, 100% 100%;
-    background-position: right, left;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin-top: 1.5px;
-    color: rgb(255, 243, 243);
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: flex-start;
-    padding-left: 30px;
-    padding-top: 20px;
-}
+
 
 h2,
 .first-ad .top-left + p {

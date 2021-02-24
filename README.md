@@ -15,3 +15,7 @@
 #### Reporters grid was created
 
 - Utilities CSS page has been created
+
+#### Headers 
+
+- I used header-fixed class to fix headers navbar into position. 
