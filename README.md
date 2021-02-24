@@ -16,6 +16,6 @@
 
 - Utilities CSS page has been created
 
-#### Headers 
+#### Headers
 
-- I used header-fixed class to fix headers navbar into position. 
+- I used header-fixed class to fix headers navbar into position.
