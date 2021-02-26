@@ -64,7 +64,8 @@ h2 {
     opacity: 0.5;
 }
 
-.p2 span {
+
+.flex2{
     font-size: 1.6rem;
     text-transform: capitalize;
 }
@@ -109,24 +110,24 @@ h2 {
     border-bottom: 1px solid var(--borders);
 }
 
-.footer p {
-    margin-top: 2px;
-}
-
-.p-contact-us{
-    font-size: 1rem;
-    text-align: center;
+.p-contact-us {
+    font-size: 1.5rem;
+    font-weight: 600;
     line-height: 1.6;
-    /* padding-top: 15px;
-    padding-bottom: 10px; */
-
+    text-align: left;
 }
 
+/* Copy Right at the bottom of footer */
 
-/* .flex1 p a {
+.footer p {
+    margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+.flex1 p a {
     text-align: center;
     padding: auto 20px;
-} */
+}
 
 /* .social-media-icons + p {
     text-align: center;
@@ -140,9 +141,9 @@ h2 {
     border-radius: 50%;
 }
 
-header .images2 {
+/* header .images2 {
     margin-left: 20px;
-}
+} */
 
 
 img {
@@ -158,11 +159,15 @@ img {
     display: block;
 }
 
-.flex2 .social-media-icons img {
+.facebook,
+.twitter-icon {
     width: 30px;
     height: 30px;
-    margin-top: -15px;
-    align-self: flex-start;
+    /* align-self: center; */
+}
+
+.facebook {
+    border-radius: 50%;
 }
 
 /* .flex2 a img:first-child {
@@ -171,37 +176,35 @@ img {
 } */
 
 
-.flex2 img:nth-child(2) {
+/* .flex2 li img:nth-child(2) {
     margin: auto;
-}
+} */
 
-.twitter-icon {
+/* .twitter-icon {
     position: absolute;
     left: 65px;
     bottom: 10px;
-}
+} */
 
-.facebook {
+/* .facebook {
     position: absolute;
     right: 65px;
     bottom: 10px;
-}
+} */
 
-.repoters img, 
+/* .repoters img, 
 .social-media-icons img {
     max-width: 100%;
     height: auto;
     display: block;
-}
+} */
 
-.flex2 img {
+/* .flex2 img {
     width: 55px;
     height: 55px;
     border-radius: 50%;
     margin: auto;
-
-
-}
+} */
 
 
 
@@ -226,7 +229,7 @@ img {
 }
 
 /* On :hover */
-li a:hover {
+.nav-ul a:hover {
     border-bottom: 2px solid red;   
 }
 
@@ -258,6 +261,11 @@ li a:hover {
 }
 
 .flex2 p a:hover {
+    color: var(--p1-hover);
+}
+
+.flex2 a:hover,
+.footer a:hover {
     color: var(--p1-hover);
 }
 
@@ -451,10 +459,16 @@ footer {
 	font-size: 18px;
 	font-weight: 800;
 	letter-spacing: 5px;
-	text-transform: capitalize;
 	padding-top: 40px;
-	text-align: center;
+	/* text-align: center; */
 }
+
+.footer li {
+    padding-top: 3px;
+    text-transform: capitalize;
+}
+
+
 
 
 
