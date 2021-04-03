@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --borders: rgb(179, 135, 24);
+    --border-bottom: rgba(175, 132, 24, 0.322);
+    --td: rgb(253, 253, 253);
+}
+body {
+    /* font-size: 20px; */
+    margin: auto;
+    background-color: whitesmoke;
+    width: 80vw;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: yellowgreen;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size and aligment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+     font: 1em san-serif;
+      /* Uniform text field size */
+      width: 300px;
+      box-sizing: border-box;
+      /* Match form field borders */
+      border: 1px solid#999;
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border: 1px solid #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+button {
+    /* Align buttons with the text fields */
+    padding: auto;/* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+     margin-left: 7.1em;
+     mar
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* General */
+/* table {
+    border: 3px solid var(--borders);
+    width: 600px;
+    height: 400px;
+    font-size: 1rem;
+    margin: auto;
+}
+tr {
+    font-size: 1rem;
+    text-align: center;
+}
+td {
+    border-bottom:3px solid var(--border-bottom);
+    background-color: var(--td);
+    font-size: 1.3rem;
+    color: var(--borders);
+}
+
+h2 {
+    text-align: center;
+} */ */
