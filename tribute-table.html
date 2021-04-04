@@ -5,28 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./table.css">
-    <title>Testing Page | html Table</title>
+    <title>Contact Us  | form</title>
 </head>
 <body>
-    <form action="/my_handeling-form-page/" method="POST">
-        <ul>
-            <li>
-                <label for="name">Name:</label>
-                <input type="tex" id="name" name="user_name">
-            </li>
-            <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email">
-            </li>
-            <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </li>
-            <li class="button">
-                <button type="submit">Send your mesage</button>
-            </li>
-        </ul>
-    </form>
+    <h1>Contact Us</h1>
+    <main>
+        <form action="/my_handeling-form-page/" method="POST">
+            <ul>
+                <li>
+                    <label for="title">Title</label>
+                    <select name="title" id="title">
+                        <option value=""></option>
+                        <option value="mr">Mr</option>
+                        <option value="mrs">Mrs</option>
+                        <option value="miss">Miss</option>
+                        <option value="ms">Ms</option>
+                        <option value="dr">Dr</option>
+                        <option value="revd">Revd</option>
+                        <option value="prof">Prof</option>
+                        
+                    </select>
+                    
+                </li>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="tex" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your mesage</button>
+                </li>
+            </ul>
+        </form>
+        
+        <aside>
+            <p>
+                In line with government guidance, selected stores in England, Ireland and Wales are temporarily closed. Whilst we’re not
+                able to serve you in person, you can continue to shop with us here online.
+            </p>
+            <section>
+                <h2>customer update</h2>
+                <p>
+                    We have recently experienced an increase in customer contacts and have delays to our usual response times. If you've
+                    already raised a query, please wait for one of our advisors to respond. Raising a repeat query will likely slow down the
+                    response. Please accept our apologies for the current delay.
+                </p>
+                <h3>Key updates</h3>
+                <hr>
+                
+
+            </section>
+        </aside>
+
+    </main>
 
 
 
