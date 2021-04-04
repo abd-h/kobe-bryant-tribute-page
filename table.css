@@ -16,7 +16,8 @@ body {
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 500px;
+    width: 450px;
+    height: 600px;
     /* Form outline */
     padding: 1em;
     border: 1px solid #CCC;
@@ -43,15 +44,23 @@ label {
 }
 
 input,
+select,
 textarea {
     /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
      font: 1em san-serif;
       /* Uniform text field size */
       width: 300px;
+      margin: auto 5px;
+      padding: 20px;
+
       box-sizing: border-box;
       /* Match form field borders */
       border: 1px solid#999;
+}
+input,
+select {
+    height: 35px;
 }
 
 input:focus,
