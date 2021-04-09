@@ -11,64 +11,83 @@
     <h1>Contact Us</h1>
     <main>
         <form action="/my_handeling-form-page/" method="POST">
-            <ul>
+
+            <fieldset>
+                <legend>contact us</legend>
+                <label for="title">Title</label>
+                <select name="title" id="title">
+                    <option value=""></option>
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="miss">Miss</option>
+                    <option value="ms">Ms</option>
+                    <option value="dr">Dr</option>
+                    <option value="revd">Revd</option>
+                    <option value="prof">Prof</option>                
+                </select>
+
+                <label for="first-name">First Name:</label>
+                <input type="tex" id="first-name" name="user_first_name" placeholder="First Name">
+
+                <label for="last-name">Last Name:</label>
+                <input type="tex" id="last-name" name="user_last_name" placeholder="Last Name">
+
+                <label for="subject">Subject:</label>
+                <select name="subject" id="subject">
+                    <option value="please select a subjec">Please select a subject</option>
+                    <option value="return online orders">Return online orders</option>
+                    <option value="tailor me">Tailor Me</option>
+                    <option value="store Purchase">Store Purchase</option>
+                    <option value="hire query">Hire Query</option>
+                    <option value="ready to wear query">Raedy to Wear Query</option>
+                    <option value="delayed delivery">Delayed Delivery</option>
+                    <option value="click and collect">Click and Collect</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Email">
+
+                <label for="phone">Phone:</label>
+                <input type="email" id="phone" name="user_phone" placeholder="Phone">
+
+                <label for="order-number">Order Number:</label>
+                <input type="email" id="order-number" name="order_number" placeholder="0123456">
+
+                <label for="msg" class="label-msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                <button class="button" type="submit">Send your mesage</button>
+            </fieldset>
+            <!-- <ul>
                 <li>
-                    <label for="title">Title</label>
-                    <select name="title" id="title">
-                        <option value=""></option>
-                        <option value="mr">Mr</option>
-                        <option value="mrs">Mrs</option>
-                        <option value="miss">Miss</option>
-                        <option value="ms">Ms</option>
-                        <option value="dr">Dr</option>
-                        <option value="revd">Revd</option>
-                        <option value="prof">Prof</option>
-                        
-                    </select>
+                    
                     
                 </li>
                 <li>
-                    <label for="first-name">First Name:</label>
-                    <input type="tex" id="first-name" name="user_first_name" placeholder="First Name">
+                    
                 </li>
                 <li>
-                    <label for="last-name">Last Name:</label>
-                    <input type="tex" id="last-name" name="user_last_name" placeholder="Last Name">
+                    
                 </li>
                 <li>
-                    <label for="subject">Subject:</label>
-                    <select name="subject" id="subject">
-                        <option value="please select a subjec">Please select a subject</option>
-                        <option value="return online orders">Return online orders</option>
-                        <option value="tailor me">Tailor Me</option>
-                        <option value="store Purchase">Store Purchase</option>
-                        <option value="hire query">Hire Query</option>
-                        <option value="ready to wear query">Raedy to Wear Query</option>
-                        <option value="delayed delivery">Delayed Delivery</option>
-                        <option value="click and collect">Click and Collect</option>
-                        <option value="other">Other</option>
-                    </select>
+                   
                 </li>
                 <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" placeholder="Email">
+                    
                 </li>
                 <li>
-                    <label for="phone">Phone:</label>
-                    <input type="email" id="phone" name="user_phone" placeholder="Phone">
+                    
                 </li>
                 <li>
-                    <label for="order-number">Phone:</label>
-                    <input type="email" id="order-number" name="order_number" placeholder="0123456">
+                    
                 </li>
                 <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
+                    
                 </li>
-                <li class="button">
-                    <button type="submit">Send your mesage</button>
+                <li >
+                   
                 </li>
-            </ul>
+            </ul> -->
         </form>
         
         <aside>
